@@ -31,20 +31,20 @@ Over the years, I've built practical solutions ranging from clinic medical recor
 
 **🌐 Full-Stack Web Applications**
 -   Built monolithic & SPA web platforms using **Laravel** (**Livewire**, **Inertia.js**), **Next.js**, **React**, **Vue.js**, **Nuxt**, **Svelte**, and **Tailwind CSS**.
--   Shipped school tuition & PPDB platforms ([`pembayaran-spp`](https://github.com/bintang-r/pembayaran-spp), [`media-pendidikan`](https://github.com/bintang-r/media-pendidikan)), public complaint portals ([`papedora`](https://github.com/bintang-r/papedora)), supplier/exporter management ([`plcrm-exportir`](https://github.com/bintang-r/plcrm-exportir)), and company profiles.
+-   Shipped school tuition & online enrollment (PPDB) platforms, real-time public complaint portals, supplier & exporter management systems, and company profile websites.
 
 **⚙️ Backend APIs & Architecture**
--   Designed RESTful APIs with **TypeScript**, **Express.js**, **NestJS**, **Prisma**, **Sequelize**, and **Django** ([`backend-kasir-warung-makan`](https://github.com/bintang-r/backend-kasir-warung-makan), [`pos-system-django-real-implementation`](https://github.com/bintang-r/pos-system-django-real-implementation), [`express-resful-api-typescript`](https://github.com/bintang-r/express-resful-api-typescript)).
--   Benchmarked and analyzed **gRPC vs REST API** performance ([`Analysis-Benchmark-gRPC-VS-REST-API`](https://github.com/bintang-r/Analysis-Benchmark-gRPC-VS-REST-API)).
+-   Designed scalable RESTful APIs with **TypeScript**, **Express.js**, **NestJS**, **Prisma**, **Sequelize**, and **Django** for POS, restaurant ordering, and business management systems.
+-   Benchmarked and analyzed **gRPC vs REST API** performance for backend architecture evaluation.
 
 **🧠 Intelligent Systems, IR & GIS**
--   Built an **ISPA Early Diagnosis Expert System** combining Knowledge Acquisition, **Forward Chaining**, and **MYCIN Certainty Factor** ([`backend-sistem-pakar-ISPA`](https://github.com/bintang-r/backend-sistem-pakar-ISPA) & [`frontend-sistem-pakar-ISPA`](https://github.com/bintang-r/frontend-sistem-pakar-ISPA)).
--   Implemented Information Retrieval with **Cosine Similarity** ([`consine-similarity-retrieval`](https://github.com/bintang-r/consine-similarity-retrieval)) and GIS data scraping & map visualization ([`screaping-maps-visualizer`](https://github.com/bintang-r/screaping-maps-visualizer)).
+-   Built an **ISPA Early Diagnosis Expert System** combining Knowledge Acquisition, **Forward Chaining**, and **MYCIN Certainty Factor** with dedicated user consultation and admin monitoring dashboards.
+-   Implemented Information Retrieval pipelines using **Cosine Similarity** and GIS web scraping with interactive map visualization.
 
 **🖥️ Desktop, IoT & Creative Dev**
--   Built **.NET / C#** desktop software for clinics and cafés ([`RekamMedisKlinik`](https://github.com/bintang-r/RekamMedisKlinik), [`CafeCasierApp`](https://github.com/bintang-r/CafeCasierApp)).
--   Created real-time **DHT11 IoT** temperature & humidity monitoring dashboards with Vue.js & Node.js ([`temp-humidity-iot-frontend`](https://github.com/bintang-r/temp-humidity-iot-frontend), [`temp-humidity-iot-backend`](https://github.com/bintang-r/temp-humidity-iot-backend)).
--   Experimented with pixel-art indie game development in **Godot / GDScript** ([`maut-menjemput`](https://github.com/bintang-r/maut-menjemput)).
+-   Built **.NET / C#** desktop management software for clinics (medical records) and cafés (cashier & customer management).
+-   Created real-time **DHT11 IoT** temperature & humidity monitoring dashboards powered by **Vue.js** and **Node.js**.
+-   Experimented with pixel-art indie game development in **Godot / GDScript** and custom **Neovim Lua** workflows.
 
 ### Highlighted Projects
 
