@@ -1,0 +1,39 @@
+name: Waka Readme
+
+on:
+  schedule:
+    - cron: '0 10,22 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update Dev Logs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check WakaTime API Key
+        id: check
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |
+          if [ -n "$WAKATIME_API_KEY" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping WakaTime update: WAKATIME_API_KEY secret is not configured yet."
+          fi
+
+      - name: Update Dev Logs with WakaTime
+        if: steps.check.outputs.enabled == 'true'
+        uses: anmol098/waka-readme-stats@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
+          SHOW_PROFILE_VIEWS: false
+          SHOW_TOTAL_CODE_TIME: false
+          SHOW_SHORT_INFO: false
+          COMMIT_MESSAGE: "chore: update dev logs"
+          SHOW_UPDATED_DATE: false
+          SHOW_LOC_CHART: false
