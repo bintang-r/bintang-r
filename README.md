@@ -1,6 +1,8 @@
-<img align="center" src="./assets/bintang-pixel.png" width="200px" alt="Bintang animated pixel art portrait" />
+<p align="center">
+  <img src="./assets/bintang-pixel.png" width="220px" alt="Bintang Roblox pixel art holding coffee" />
+</p>
 
-<h1><i>Hey! Kareba!</i> I'm <b>Bintang</b> — aka bintang-r</h1>
+<h1 align="center"><i>Hey! Kareba!</i> I'm <b>Bintang</b> — aka bintang-r</h1>
 
 I'm **Muhammad Bintang Ramli**, a passionate **Fullstack Web & Mobile Developer** from **Makassar, Indonesia**.
 I enjoy building efficient, clean, and user-friendly applications across the full stack — from modern web interfaces with **React, Next.js, Vue, and Svelte**, to robust backends with **PHP/Laravel, TypeScript/Node.js (Express & NestJS), and Python/Django**, as well as **.NET/C# desktop systems**.
